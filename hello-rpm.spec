@@ -5,7 +5,7 @@ Summary:        Hello RPM Package, first test package.
 
 License:        GPL
 URL:            http://ericsson.com
-Source0:        %{name}-%{version}-%{release}.tar.gz
+Source0:        %{name}-%{version}.tar.gz
 
 BuildArch:	noarch
 %description
