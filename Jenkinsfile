@@ -4,7 +4,6 @@ pipeline {
     stage('Build Tar') {
       steps {
         sh '''pwd
-ls
 ls -l
 
 tarname=`head -1 hello-rpm.spec | awk \'{print $2}\'`-`head -2 hello-rpm.spec | tail -1 | awk \'{print $2}\'`
